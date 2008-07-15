@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="GMail userid:"
+            />
+    <EditText android:id="@+id/userid"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:password="false">
+    </EditText>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="GMail Password:"
+            />
+    <EditText android:id="@+id/password"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:password="true">
+    </EditText>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="From:"
+            />
+    <EditText android:id="@+id/from"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:password="false">
+    </EditText>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="To:"
+            />
+    <EditText android:id="@+id/to"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:password="false">
+    </EditText>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Subject:"
+            />
+    <EditText android:id="@+id/subject"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:password="false">
+    </EditText>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Body:"
+            />
+    <EditText android:id="@+id/body"
+              android:layout_width="fill_parent"
+              android:layout_height="150dip"
+              android:password="false">
+    </EditText>
+    <Button android:id="@+id/send"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Send">
+    </Button>
+</LinearLayout>
+

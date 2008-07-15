@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:stretchColumns="1"
+   >
+   <TableRow>
+       <ImageView
+           android:id="@+id/contact_edit_thumbnail"
+           android:padding="3dip" />
+   </TableRow> 
+
+   <TableRow>
+       <TextView
+           android:text="@string/contact_edit_name"
+           android:textStyle="bold"
+           android:textAlign="end"
+           android:padding="3dip"
+            />
+      <EditText
+           android:id="@+id/contact_edit_name"
+           android:hint="@string/contact_edit_name_hint"
+           android:padding="3dip"
+           android:scrollHorizontally="true" />
+   </TableRow>       
+   
+   <TableRow>
+       <TextView
+           android:text="@string/contact_edit_mobilenum"
+           android:textStyle="bold"
+           android:textAlign="end"
+           android:padding="3dip" />
+      <EditText
+           android:id="@+id/contact_edit_mobilenum"
+           android:hint="@string/contact_edit_mobilenum_hint"
+           android:padding="3dip"
+           android:scrollHorizontally="true"
+           android:phoneNumber="true"  />
+   </TableRow>  
+   
+    
+   <TableRow>
+       <TextView
+           android:text="@string/contact_edit_homenum"
+           android:textStyle="bold"
+           android:textAlign="end"
+           android:padding="3dip" />
+      <EditText
+           android:id="@+id/contact_edit_homenum"
+           android:hint="@string/contact_edit_homenum_hint"
+           android:padding="3dip"
+           android:scrollHorizontally="true"
+           android:phoneNumber="true"/>
+   </TableRow>  
+   
+    
+   <TableRow>
+       <TextView
+           android:text="@string/contact_edit_worknum"
+           android:textStyle="bold"
+           android:textAlign="end"
+           android:padding="3dip" />
+      <EditText
+           android:id="@+id/contact_edit_worknum"
+           android:hint="@string/contact_edit_worknum_hint"
+           android:padding="3dip"
+           android:scrollHorizontally="true"
+           android:phoneNumber="true" />
+   </TableRow>  
+   
+    
+   <TableRow>
+       <TextView
+           android:text="@string/contact_edit_email"
+           android:textStyle="bold"
+           android:textAlign="end"
+           android:padding="3dip" />
+      <EditText
+           android:id="@+id/contact_edit_email"
+           android:hint="@string/contact_edit_email_hint"
+           android:padding="3dip"
+           android:scrollHorizontally="true"
+           android:capitalize="none" />
+   </TableRow>  
+   <TableRow>
+       <TextView
+           android:text="@string/contact_edit_photo"
+           android:textStyle="bold"
+           android:textAlign="end"
+           android:padding="3dip" />
+      <EditText
+           android:id="@+id/contact_edit_photo"
+           android:hint="@string/contact_edit_photo_hint"
+           android:padding="3dip"
+           android:scrollHorizontally="true"
+           android:capitalize="none" />
+   </TableRow>  
+   
+   <TableRow
+       android:gravity="right">
+
+       <Button android:id="@+id/contact_edit_save"
+           android:text="@string/contact_edit_save" />
+   </TableRow>
+</TableLayout>
+
+

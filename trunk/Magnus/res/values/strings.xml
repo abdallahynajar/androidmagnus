@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Magnus</string>
+    <string name="communication_activity">Communications</string>
+    <string name="gmail_activity">Gmail</string>
+    <string name="sms_activity">Txt Message Composer</string>
+    <string name="xmpp_activity">XMPP Communications</string>
+    <string name="bubbleview_activity">Contacts Manager</string>
+    <string name="search_activity">Search Contacts</string>
+    <string name="manage_activity">Manage Contact</string>
+    <string name="invalid_phone">Invalid phone number format</string>
+    <string name="invalid_email">Invalid e-mail format</string>
+    <string name="menu_search">Search Contacts</string>
+    <string name="menu_newcontact">New Contact</string>
+    <string name="contact_edit_name">Name</string>
+    <string name="contact_edit_name_hint">First and Last</string>
+    <string name="contact_edit_mobilenum">Mobile</string>
+    <string name="contact_edit_mobilenum_hint">Phone</string>    
+    <string name="contact_edit_homenum">Home</string>
+    <string name="contact_edit_homenum_hint">Phone</string>
+    <string name="contact_edit_worknum">Work</string>
+    <string name="contact_edit_worknum_hint">Phone</string>
+    <string name="contact_edit_email">Email</string>
+    <string name="contact_edit_email_hint">Address</string>
+    <string name="contact_edit_photo">Photo</string>
+    <string name="contact_edit_photo_hint">URL</string>
+    <string name="contact_edit_save">Save</string>
+    <string name="call_without_number">There is no phone number for this contact saved in your address book.</string> 
+    <string name="sms_cannot_send">Cannot send TXT message.</string>
+    <string name="gtalk_cannot_send">There is no chat username for this contact saved in your address book.</string>
+    <string name="sms_max_chars">Max Characters</string>
+    <string name="contact_without_email">There is no email for this contact saved in your address book.</string>
+    <string name="email_sent">Email sent successfully!</string>  
+    <string name="invalid_photo_url">The photo at the URL you entered cannot be retreived. Please check the URL</string>
+    <string name="test_glview">Test GLView</string> 
+    <string name="gtalk_app_name">GTalk Client</string>
+    <string name="xmpp_service_not_connected">XMPP service not connected.</string>
+    <string name="xmpp_session_not_found">The default XMPP session cannot be found.</string>
+    <string name="found_stale_xmpp_service">The XMPP service is stale. Rebinding...</string>
+    <string name="gtalk_invalid_username">Invalid username. Please enter your Google username.</string>   
+    <string name="search_box_hint">Enter Keyword</string>
+    <string name="search_box_title">Search Contacts</string>
+    <string name="search_box_button">Close</string>
+</resources>
