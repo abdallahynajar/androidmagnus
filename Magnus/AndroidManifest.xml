@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="org.magnus">
+
+	<!-- NCC http://code.google.com/android/reference/android/telephony/package-descr.html -->
+
+
+	<application android:icon="@drawable/icon"
+		android:theme="@android:style/Theme.Dark">
+		<provider android:name=".contentprovider.ContentProvider"
+			android:authorities="org.magnus.contentprovider.Contacts" />
+		<activity android:name=".Magnus"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category
+					android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".communication.GTalkClient"
+			android:label="@string/gtalk_app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category
+					android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".communication.Communication"
+			android:label="@string/communication_activity" />
+		<activity android:name=".communication.email.SendMail"
+			android:label="@string/gmail_activity" />
+		<activity android:name=".communication.SmsGenerator"
+			android:label="@string/sms_activity" />
+		<activity android:name=".communication.XmppMessage"
+			android:label="@string/xmpp_activity" />
+		<activity android:name=".manager.Manager"
+			android:label="@string/manage_activity" />
+		<activity android:name=".glview.testBubbles"
+			android:label="@string/app_name" />
+	</application>
+	<uses-permission android:name="android.permission.CALL_PHONE">
+	</uses-permission>
+	<uses-permission android:name="android.permission.READ_CONTACTS">
+	</uses-permission>
+</manifest>
